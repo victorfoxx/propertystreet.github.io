@@ -1,0 +1,110 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(80, 200, 120);
+}
+a{
+    transition: 1s;
+}
+a:hover{
+    color:white;
+    cursor: pointer;
+}
+.topheader{
+    width: 800px;
+    height: 300px;
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow:
+    1px 1px 1px white,
+    2px 2px 1px white;
+    text-align: center;
+}
+
+.header2{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 60px 0px 0px 200px;
+}
+
+.Reach{
+    width: 300px;
+    height: 50px;
+    text-align: justify;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    transition: 1s;
+}
+
+.Reach>a{
+    position: absolute;
+    margin: 15px 0px 0px -43px;
+}
+
+.Reach:hover{
+    background-color: white;
+    color: black;
+}
+
+.Reach>a:hover{
+         color: black;
+}
+
+.approved{
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 125px;
+}
+
+.approved>h1{
+    color: black;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.approved>p{
+    color: black;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+    .goalsheader{
+        position: relative;
+        margin: 150px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .goalsbody{
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 150px;
+        justify-content: space-between;
+
+    }
